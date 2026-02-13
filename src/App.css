@@ -85,6 +85,16 @@ body {
   text-align: center;
 }
 
+.section h2{
+  padding: 20px;
+  font-size: 50px;
+}
+
+.section p{
+  font-size: 25px;
+  opacity: 65%;
+}
+
 /* PROJECTS */
 
 .grid {
@@ -186,6 +196,7 @@ footer {
 .socials a:hover {
   transform: translateY(-5px);
   background: #38bdf8;
+  box-shadow: 0 0 15px #38bdf8;
 }
 
 .socials svg {
