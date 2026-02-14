@@ -72,6 +72,13 @@ body {
   font-weight: bold;
 }
 
+.hero a:hover{
+  transform: translateY(-5px);
+  background: #38bdf8;
+  box-shadow: 0 0 15px #38bdf8;
+}
+
+
 .outline {
   background: transparent !important;
   border: 1px solid #38bdf8;
