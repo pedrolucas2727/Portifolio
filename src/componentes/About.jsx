@@ -3,7 +3,8 @@ function About(){
         <section id="about" className="section">
             <h2>Sobre Mim</h2>
 
-            <p>Desenvolvedor focado em aplicações modernas e responsivas, apaixonado por tecnologia, interfaces e arquitetura de sistemas.</p>
+            <p>Atuo hoje na área de Helpdesk mas, Desejo ingressar na área de desenvolvimento de sistemas e sites.</p>
+            <p>Estou estudando e buscando sempre me adaptar a qualquer situação e aprender ao longo da minha jornada.</p>
         </section>
     )
 }

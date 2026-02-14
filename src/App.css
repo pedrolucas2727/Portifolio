@@ -85,6 +85,16 @@ body {
   text-align: center;
 }
 
+.section h2{
+  padding: 20px;
+  font-size: 50px;
+}
+
+.section p{
+  font-size: 25px;
+  opacity: 65%;
+}
+
 /* PROJECTS */
 
 .grid {
@@ -164,3 +174,47 @@ footer {
   }
 
 }
+
+.socials {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.socials a {
+  width: 50px;
+  height: 50px;
+  background: #161b22;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  transform: translateY(-5px);
+  background: #38bdf8;
+  box-shadow: 0 0 15px #38bdf8;
+}
+
+.socials svg {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+@media (max-width: 768px) {
+
+  .socials {
+    gap: 15px;
+  }
+
+  .socials a {
+    width: 45px;
+    height: 45px;
+  }
+
+}
+
